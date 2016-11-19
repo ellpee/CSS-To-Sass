@@ -46,19 +46,21 @@ li {
 
 /* Pseudo-classes ------------------ */
 
-a:link {
+a {
+   &:link {
   color: rgb(255, 169, 73);
   text-decoration: none;
-}
+    }
 
-a:visited {
+    &:visited {
   color: lightblue;
-}
+    }
 
-a:hover {
+    &:hover {
   color: rgba(255, 169, 73, .5);
+    } 
+    &:active {
+  color: lightcoral;
+    }
 }
 
-a:active {
-  color: lightcoral;
-}
