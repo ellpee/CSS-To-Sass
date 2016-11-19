@@ -5,14 +5,14 @@
 }
 
 body {
-  color: #878787;
+  color: $color-text-base;
   margin: 0;
-  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1em/1.5 $stack-helvetica;
 }
 
 h1,
 h2 {
-  font-family: 'Abolition Regular', Helvetica, Arial, sans-serif;
+  font-family: $stack-abolition;
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   font-size: 1.25em;
-  color: #48525c;
+  color: $color-text-dark;
   line-height: 1.2;
   margin-bottom: 1.7em;
 }
@@ -32,7 +32,7 @@ h3 {
 img {
   max-width: 100%;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: $br;
 }
 
 ul,
@@ -48,16 +48,16 @@ li {
 
 a {
    &:link {
-  color: rgb(255, 169, 73);
+  color: $color-link-default;
   text-decoration: none;
     }
 
     &:visited {
-  color: lightblue;
+  color: $color-link-visited;
     }
 
     &:hover {
-  color: rgba(255, 169, 73, .5);
+  color: $color-link-default;
     } 
     &:active {
   color: lightcoral;
